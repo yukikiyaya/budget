@@ -1,5 +1,5 @@
 QT       += core gui
-
+QT +=sql
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++11
@@ -18,12 +18,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     budget.cpp \
     main.cpp \
+    mySQLBase.cpp \
     mymainwindow.cpp \
     newdelete.cpp \
     newdesign.cpp
 
 HEADERS += \
     budget.h \
+    mySQLBase.h \
     mymainwindow.h \
     newdelete.h \
     newdesign.h
